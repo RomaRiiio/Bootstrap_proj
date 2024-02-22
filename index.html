@@ -1,0 +1,555 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/all.css">
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Hublot</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head><!--head-->
+
+<body>
+    <div class="i_div">
+        <a href="#"><i class="fab fa-facebook" style="color: #4267B2;"></i></a>
+        <a href="#"><i class="fab fa-whatsapp" style="color: #25D366;"></i></a>
+        <a href="#"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a>
+        <a href="#"><i class="fab fa-instagram" style="color: #E1306C;"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in" style="color: #0A66C2;"></i></a>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="nav_bar__logo">
+            <a href="#" title="logo" class="nav_bar__logo_link">
+                <img src="./images/hublot-logo-upd.svg" alt="Hublot logo" class="logo lazyloaded ms-5" width="150px">
+            </a>
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Category
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Men</a></li>
+                            <li><a class="dropdown-item" href="#">Women</a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control mx-5" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success ms-5  text-light bg-dark " type="submit">Search</button>
+                    <button class="btn btn-outline-success ms-4 text-light bg-dark" type="button" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Login</button>
+                </form>
+            </div>
+
+        </div>
+
+    </nav>
+        <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remmember me</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary"
+                        data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="10000">
+                
+                <img src="./images/1.jpeg" class="d-block w-100" alt="image_of_watch">
+                
+               
+                <div class="carousel-caption d-none d-md-block bg-secondary p-2 text-dark bg-opacity-50">
+                    <h5 class="text-light fs-1">First Design</h5>
+                   
+                    <p class="text-light">Golden one with leather stick.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/2.jpeg" class="d-block w-100" alt="image_of_watch">
+                <div class="carousel-caption d-none d-md-block bg-secondary p-2 text-dark bg-opacity-50">
+                    <h5 class="text-light fs-1">Second Design</h5>
+                    <p class="text-light">Golden from A to Z with Classic design.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/3.jpeg" class="d-block w-100" alt="image_of_watch">
+                <div class="carousel-caption d-none d-md-block bg-secondary p-2 text-dark bg-opacity-50">
+                    <h5 class="text-light fs-1">Third Design</h5>
+                    <p class="text-light">Best Seller.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="jumbotron text-light bg-dark">
+       <div class="div2 mx-5 py-4" >
+        <h1 class="display-4">MP</h1>
+        <p class="lead">Born with innovation in mind, the models of the MP collection represent the fusion between revolutionary movements and spectacular designs.
+             Embodying pure prowess, they invite us to look at time in a new light.</p>
+        <hr class="my-4">
+        <p>we have 3 design for MP  MP-10 MP-13 MP-15.</p>
+        <p class="lead">
+          <a class="btn p-3 mb-2 bg-white text-dark" href="#" role="button">View all MP Watches</a>
+        </p>
+       </div>
+    </div>
+
+
+    <figure class="text-center my-0 py-4 bg-secondary text-light" style="height: 90px;">
+        <blockquote class="blockquote">
+          <h2>HUBLOTISTA.</h2>
+        </blockquote>
+      </figure>
+
+
+
+    <div class="accordion bg-dark text-light my-0" id="accordionExample">
+        <div class="accordion-item ">
+          <h2 class="accordion-header bg-dark text-light">
+            <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              First Design
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's NOVELTIES.</strong> Hublot highlights from LVMH’s Dubai Watch Week
+              Though it may have been a few weeks ago, such was the extent of Hublot’s 2020 novelties unveiled at LVMH’s Dubai Watch Week that it’s still got the horological hemisphere talking..
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Second Design
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's BIG BANG.</strong> Hublot is kicking off 2023 with a big bang, debuting a brightly hued tourbillon in an exotic new material.
+              An OG classic makes its return, now in new case materials and a wide range of size choices.
+              A bold new chronograph looks and does good, created to benefit endangered wildlife..
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Third Design
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's CLASSIC FUSION.</strong> A FUSION OF JEWELLER’S DESIGN AND CRAFTSMANSHIP
+              Hublot combines iconic design and craftsmanship with its Classic Fusion High Jewellery 2023 watch, a stunning piece of high jewellery with 431 dazzling baguette-cut diamonds..
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <figure class="text-center my-0 py-4 bg-secondary text-light" style="height: 90px;">
+        <blockquote class="blockquote">
+          <h2>First Feedback</h2>
+        </blockquote>
+    </figure>
+
+    <div class="div_feed bg-dark text-light">
+         <h4 class="first h4 mx-3 py-5 bg">Enter your First feedback:</h4>
+         
+        <div class="input-group mb-5 mx-3 " style="width: 1800px; height: 150;">
+            <!-- <span class="input-group-text">Write Here</span> -->
+            <textarea class="form-control" aria-label="With textarea" placeholder="good smth..."></textarea>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">SAVING!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                feedback saved successfully
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               
+                </div>
+            </div>
+            </div>
+        </div>
+           <!-- Button trigger modal -->
+        <button type="button" class=" mx-3 btn bg-white text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Save
+        </button>
+    </div>
+
+    <div class="div_feed bg-dark text-light">
+        <h4 class="first h4 mx-3 py-5 bg">Enter your Second feedback:</h4>
+        
+       <div class="input-group mb-5 mx-3 " style="width: 1800px; height: 150;">
+           <!-- <span class="input-group-text">Write Here</span> -->
+           <textarea class="form-control" aria-label="With textarea" placeholder="good smth..."></textarea>
+       </div>
+
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+               <h1 class="modal-title fs-5 text-dark" id="exampleModalLabel">SAVING!</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body text-dark">
+               feedback saved successfully
+               </div>
+               <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               </div>
+           </div>
+           </div>
+       </div>
+          <!-- Button trigger modal -->
+       <button type="button" class=" mx-3 btn bg-white text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+           Save
+       </button>
+    </div>
+
+   <div class="div_bg"></div>
+
+   <figure class="text-center my-0 py-4 bg-secondary text-light" style="height: 90px;">
+    <blockquote class="blockquote">
+      <h2>NEW ITEMS!</h2>
+    </blockquote>
+   </figure>
+
+<div class="card_section">
+
+   <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary ">Price</a>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang2.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary">Price</a>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang3.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary">Price</a>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang4.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary">Price</a>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang5.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary">Price</a>
+    </div>
+  </div>
+
+  <div class="card bg-dark text-light" style="width: 18rem;">
+    <img src="./images/bigbang6.png" class="card-img-top" alt="watch">
+    <div class="card-body">
+      <h5 class="card-title">Big Bang</h5>
+      <p class="card-text">New Color </p>
+      <a href="#" class="btn bg-body-tertiary">Price</a>
+    </div>
+  </div>
+</div>
+
+<div class="bg2"></div>
+   
+<figure class="text-center my-0 py-4 bg-secondary text-light" style="height: 90px;">
+    <blockquote class="blockquote">
+      <h2>Best Seller Items </h2>
+    </blockquote>
+</figure>
+
+<div class="div_cards">
+  <div class="card text-bg-dark">
+    <img src="./images/hub1.png" class="card-img" alt="watch">
+    <div class="card-img-overlay">
+      <h5 class="card-title ">Best seller</h5>
+      <p class="card-text">BLACK RUBBER STRAP WITH PYRAMID STUDS DECORS. ADDITIONAL STRAP: RECYCLED BLACK FABRIC STRAP.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark">
+    <img src="./images/hub2.png" class="card-img" alt="watch">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Best seller</h5>
+      <p class="card-text">BLACK RUBBER STRAP WITH PYRAMID STUDS DECORS. ADDITIONAL STRAP: RECYCLED BLACK FABRIC STRAP.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card text-bg-dark">
+    <img src="./images/hub3.png" class="card-img" alt="watch">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Best seller</h5>
+      <p class="card-text">BLACK RUBBER STRAP WITH PYRAMID STUDS DECORS. ADDITIONAL STRAP: RECYCLED BLACK FABRIC STRAP.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+<figure class="text-center my-0 py-4 bg-secondary text-light" style="height: 90px;">
+  <blockquote class="blockquote">
+    <h2>More Information</h2>
+  </blockquote>
+ </figure>
+
+<div class="div_ceo">
+  
+      <div class="card mb-3 text-bg-dark" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/ceo.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-5">
+            <div class="card-body ">
+              <h5 class="card-title "><b>CEO. Jean Claude Biver</b></h5>
+              <p class="card-text">Paired with his increasingly imporant role in the charitable organisation Hand-In-Hand, Crocco decided it was time to look for someone suitable who could take the Hublot helm. In May 2004, Hublot found their successor: Jean Claude Biver, who left his post as President of the Omega Division of the Swatch Group, and became Hublot’s CEO.</p>
+              <p class="card-text"><small class="position-absolute  ">since 2004</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card mb-3 text-bg-dark" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/store.jpg" class="img-fluid rounded-start" alt="store">
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title"><b>Hublot stores</b></h5>
+              <p class="card-text">Hublot had 169 Boutiques in several countries. In February 2007, Hublot opened its first mono-brand store in Paris, in the Rue Saint-Honoré. The second was opened in the summer of that year, in the Hôtel Byblos, Saint-Tropez. Today, Hublot has store on Bond Street, London. </p>
+              <p class="card-text"><small class="position-absolute">As of 2019</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card mb-3 text-bg-dark" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/ambassdor.jpg" class="img-fluid rounded-start" alt="ambassador">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><b>Ambassador</b></h5>
+              <p class="card-text">At the opening ceremony for its first store in Beijing, Biver introduced Jet Li as Hublot's next brand ambassador. Li is the brand's first Asian ambassador as well as the first film star to work as a Hublot ambassador. Other brand ambassadors have included Formula 1 driver Ayrton Senna's family and Institute; world's fastest man Usain Bolt  designer Samuel Ross France and PSG player Kylian Mbappé; football player Pelé; American boxer Floyd Mayweather, Indian cricketer Rohit Sharma and formerly</p>
+              <p class="card-text"><small class="position-absolute">
+                On January 7, 2022, Hublot announced Chinese Pop Star Lay Zhang as the new Hublot Brand Ambassador. [29]</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card mb-3 text-bg-dark" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./images/sponser.png" class="img-fluid rounded-start" alt="mancity">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><b>Sponsorships</b></h5>
+              <p class="card-text">To increase the public profile of their brand Hublot have engaged in a number of sponsorship deals. In 2008, they agreed a sponsorship deal with the football club Manchester United, worth £4 million a year. Later, Hublot started endorsing some top football clubs like FC Bayern Munich, Juventus, Paris Saint-Germain, Ajax Amsterdam.</p>
+              <p class="card-text"><small class="position-absolute ">In 2008</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<figure class="text-center mb-5 my-0 py-4 bg-secondary text-light" style="height: 90px;">
+  <blockquote class="blockquote">
+    <h2>Follow US</h2>
+  </blockquote>
+ </figure>
+
+<div class="list-group">
+  <a href="#" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-facebook" style="color: #4267B2;"></i><p>Hublot</p></a>
+  <a href="#" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-whatsapp" style="color: #25D366;"></i><p>Hublot</p></a>
+  <a href="#" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-twitter" style="color: #1DA1F2;"></i><p>Hublot</p></a>
+  <a href="#" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-instagram" style="color:  #E1306C;"></i><p>Hublot</p></a>
+  <a href="#" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded list-group-item list-group-item-action list-group-item-primary"><i class="fab fa-linkedin-in" style="color: #0A66C2;"></i><p>Hublot</p></a>
+</div>
+
+
+<div class="container">
+  <footer class="py-5">
+    <div class="row d-flex  justify-content-center">
+      <div class="col-2">
+        <h5>HUBLOT</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>HUBLOT</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>HUBLOT</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+     
+    </div>
+
+    <div class="d-flex justify-content-between py-3 my-4 border-top">
+      <p>© 2024 RomarioHani, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
